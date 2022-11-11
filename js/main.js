@@ -11,7 +11,11 @@ const { createApp } = Vue;
 createApp({
     data() {
         return {
-            message: 'Il mio primo progetto con VueJS'
+            message: 'Il mio primo progetto con VueJS',
+            photo: {
+                title: 'Battle Charles-Max',
+                image: 'leclerc-max-bahrain-2022.jpg'
+            }
         }
     }
 }).mount('#app');

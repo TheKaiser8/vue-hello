@@ -5,3 +5,13 @@
 
 // Bonus:
 // Aggiungere alla pagina un’immagine, presa anch’essa da un data.
+
+const { createApp } = Vue;
+
+createApp({
+    data() {
+        return {
+            message: 'Il mio primo progetto con VueJS'
+        }
+    }
+}).mount('#app');
